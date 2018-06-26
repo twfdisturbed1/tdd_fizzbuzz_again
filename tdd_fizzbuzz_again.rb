@@ -4,6 +4,8 @@ def fizzbuzz()
     fizzbuzzarry.each do |item|
 		if item %3 == 0 && item %5 == 0
             item = "mined minds"
+        elsif item %3 == 0
+            item = "mined"
         else
         end
         new_arr << item
