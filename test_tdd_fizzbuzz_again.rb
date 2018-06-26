@@ -17,5 +17,8 @@ class TestYourFunctions < Minitest::Test
     end
     def test_assert_fifteenth_position_is_mined_minds()
 		assert_equal("mined minds", fizzbuzz()[14])
-	end
+    end
+    def test_assert_third_position_is_mined()
+    	assert_equal("mined", fizzbuzz()[2])
+    end
 end
