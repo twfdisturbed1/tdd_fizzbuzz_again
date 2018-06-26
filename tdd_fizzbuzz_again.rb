@@ -6,7 +6,8 @@ def fizzbuzz()
             item = "mined minds"
         elsif item %3 == 0
             item = "mined"
-        else
+        elsif item %5 == 0
+            item = "minds"
         end
         new_arr << item
     end
